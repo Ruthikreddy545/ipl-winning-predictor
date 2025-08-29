@@ -158,8 +158,8 @@ if st.button("Predict", key="predict_button"):
     f"""
     <div class="result-box">
         <h3 class="result-title" style="color: white;">📊 Prediction Results</h3>
-        <p class="win">Win Probability: {win_prob:.2f}</p>
-        <p class="loss">Loss Probability: {loss_prob:.2f}</p>
+        <p class="win">Batting Team Win Probability: {win_prob:.2f}</p>
+        <p class="loss">Batting Team Loss Probability: {loss_prob:.2f}</p>
     </div>
     """,
     unsafe_allow_html=True
